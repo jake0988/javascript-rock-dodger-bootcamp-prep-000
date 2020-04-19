@@ -108,7 +108,7 @@ function createRock(x) {
     if (top === 0)px {
       rock.length = 0
     }
-
+}
     // (use the comments below to guide you!)
     /**
 
@@ -126,7 +126,7 @@ function createRock(x) {
      * we should remove the rock from the DOM.
      */
 
-  }
+
 //
 //   // We should kick off the animation of the rock around here.
 //
