@@ -94,21 +94,21 @@ function createRock(x) {
    * This function moves the rock. (2 pixels at a time
    * seems like a good pace.)
    */
-  function moveRock() {
-    // implement me!
-    var topNumbers = rock.style.top.replace('px', '')
-        top = parseInt(topNumbers, 10)
-
-
-
-    rock.style.top = `${top - 2}px`
-    if(checkCollision(rock) == true) {
-      endGame()
-    }
-    if (top === 0)px {
-      rock.length = 0
-    }
-}
+//   function moveRock() {
+//     // implement me!
+//     var topNumbers = rock.style.top.replace('px', '')
+//         top = parseInt(topNumbers, 10)
+//
+//
+//
+//     rock.style.top = `${top - 2}px`
+//     if(checkCollision(rock) == true) {
+//       endGame()
+//     }
+//     if (top === 0)px {
+//       rock.length = 0
+//     }
+// }
     // (use the comments below to guide you!)
     /**
 
