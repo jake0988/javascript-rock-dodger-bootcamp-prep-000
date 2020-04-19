@@ -96,6 +96,7 @@ function createRock(x) {
    */
   function moveRock() {
     // implement me!
+    
     var topNumbers = rock.style.top.replace('px', '')
         top = parseInt(topNumbers, 10)
 
