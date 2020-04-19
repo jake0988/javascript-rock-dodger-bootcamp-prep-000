@@ -63,11 +63,9 @@ function checkCollision(rock) {
     else {
       return false
     }
-    
+
   }
-  if (rock.style.top <= 360) {
-    false
-  }
+
 }
 
 function createRock(x) {
