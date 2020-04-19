@@ -65,7 +65,7 @@ function checkCollision(rock) {
     }
 
   }
-  if (rock.style.top <= 360) {
+  if (rock.style.top > 360) {
     false
   }
 }
